@@ -1,2 +1,43 @@
 /* <!-- font-family: 'Crete Round', serif;
 font-family: 'Lato', sans-serif; --> */
+
+@charset "UTF-8";
+
+.header {
+    padding: 20px 25px;
+    font-family: 'Lato', sans-serif;
+}
+
+.navbar .nav-item {
+    color: rgba(0,0,0,.87);
+    font-size: 12.5px;
+    font-weight: 900;
+    letter-spacing: 1.6px;
+    text-transform: uppercase;
+}
+
+ .navbar-nav .nav-item .nav-link {
+    color: black;
+    transition: all .3s ease;
+}
+
+.img-history {
+    width: 130px;
+}
+
+.icon {
+    font-size: 20px;
+}
+
+.btn-light {
+    border: 1px solid black;
+    background-color: transparent;
+}
+
+.container-left {
+    width: 50%;
+}
+
+.container-right {
+    width: 50%;
+}
