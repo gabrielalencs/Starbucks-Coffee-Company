@@ -2,3 +2,40 @@
 font-family: 'Lato', sans-serif; --> */
 
 @charset "UTF-8";
+
+
+.primary-color {
+   background-color: #D4E9E2;
+}
+
+.text-color {
+    color: #1E3932;
+}
+
+/* Header */
+
+.header_starbucks {
+    font-family: 'Lato', sans-serif;
+}
+
+.navbar + .offcanvas { 
+    width: 310px;
+}
+
+.offcanvas .nav .nav-link {
+    font-size: 14px;
+}
+
+.offcanvas-header .nav .nav-item {
+    transition: all .1s ease;
+}
+
+.offcanvas-header .nav .nav-item:hover {
+    background-color: #e6e6e6;
+}
+
+.icon {
+    font-size: 23px;
+}
+
+
