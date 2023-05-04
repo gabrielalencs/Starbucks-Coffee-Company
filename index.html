@@ -26,25 +26,49 @@
 
 <body>
     <header class="header_starbucks">
-        <nav class="navbar navbar-expand-md bg-body-tertiary">
-            <div class="container-fluid ">
-                <a class="navbar-brand" href="#"><img src="imagens/starbucks-nav-logo.svg" alt="Logo Starbucks"
-                        width="40px"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#offcanvas"
-                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
+        <nav class="navbar navbar-expand-md pt-3 ps-1">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="imagens/starbucks-nav-logo.svg" alt="Logo Starbucks"></a>
+                <button class="navbar-toggler border-0 me-3 button" type="button" data-bs-target="#offcanvas" aria-expanded="false" aria-label="Toggle navigation" data-bs-toggle="offcanvas"
+                aria-controls="offcanvasExample">
+                    <i class="bi bi-list"></i>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae quis eum saepe, autem obcaecati
-                    quibusdam animi. Minima, laudantium iusto minus reiciendis autem error qui, ratione, praesentium at
-                    molestiae voluptatem tempore.
+                    <ul class="nav">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link text-black text-uppercase">Menu
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link link text-black text-uppercase">Rewards
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link text-black text-uppercase">Nosso café
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link text-black text-uppercase">Impacto Social
+                            </a>
+                        </li>
+                    </ul>
+
+                    <div class="container-fluid gap-3 m-0 p-0">
+                        <img src="imagens/sb-historias-logo.svg" alt="Logotipo Starbucks Histórias" class="logotipo-history">
+                        <a href="#" class="text-decoration-none text-dark fw-bolder">
+                            <i class="bi bi-geo-alt-fill text-dark icon me-2 icon"></i>
+                            <span class="text-icon">Encontre uma loja</span>
+                        </a>
+                        <button class="btn btn-light text-dark rounded-pill border-black bg-white py-1 px-3 align-self-center">Entrar</button>
+                        <button class="btn btn-dark rounded-pill border-black bg-dark px-2">Participe agora</button>
+                    </div>
                 </div>
             </div>
         </nav>
 
         <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvas" aria-labelledby="offcanvasExampleLabel">
             <div class="offcanvas-header p-0">
-                <ul class="nav flex-column ">
+                <ul class="nav flex-column w-100">
                     <li class="nav-item w-100 ps-3 pb-2 pb-1 pt-1">
                         <a href="#" class="nav-link text-dark">Menu</a>
                     </li>

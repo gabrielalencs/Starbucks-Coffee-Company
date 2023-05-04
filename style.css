@@ -3,6 +3,10 @@ font-family: 'Lato', sans-serif; --> */
 
 @charset "UTF-8";
 
+@font-face {
+    font-family: 'Sodo-Sans';
+    src: url(font/SoDoSans-Bold.ttf);
+}
 
 .primary-color {
    background-color: #D4E9E2;
@@ -15,7 +19,19 @@ font-family: 'Lato', sans-serif; --> */
 /* Header */
 
 .header_starbucks {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Sodo-Sans';
+}
+
+/* Start Offcanvas */
+
+.container-fluid .navbar-brand  img {
+    width: 40px;
+}
+
+@media screen and (min-width: 768px){
+    .navbar .container-fluid .navbar-brand  img {
+        width: 50px;
+    }
 }
 
 .navbar + .offcanvas { 
@@ -34,8 +50,67 @@ font-family: 'Lato', sans-serif; --> */
     background-color: #e6e6e6;
 }
 
-.icon {
-    font-size: 23px;
+.bi-list {
+    font-size: 25px;
 }
+
+/* End Offcanvas */
+
+/* Start Menu */
+
+.header_starbucks .navbar {
+    font-size: 12.5px;
+    font-weight: bolder;
+    letter-spacing: 1.5px;
+}
+
+.logotipo-history {
+    width: 120px;
+}
+
+.navbar .container-fluid .container-fluid {
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (min-width: 750px) {
+
+    .navbar .container-fluid .container-fluid {
+        display: flex;
+        justify-content: center;
+    }
+
+    .navbar .container-fluid .container-fluid a {
+        display: none;
+    }
+
+    .navbar .container-fluid .container-fluid .btn-light, .btn-dark {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 880px) {
+    .navbar .container-fluid .container-fluid a {
+        display: inline-block;
+    }
+}
+
+@media screen and (min-width: 1050px) {
+    .navbar .container-fluid .container-fluid .btn-light {
+        display: inline-block;
+    }
+}
+
+@media screen and (min-width: 1120px) {
+    .navbar .container-fluid .container-fluid .btn-dark {
+        font-size: 12px;
+        display: inline-block;
+    }
+}
+
+
+/* End Menu */
+
+/* Header */
 
 
