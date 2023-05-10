@@ -173,8 +173,7 @@ body {
 
 .section-1 p {
     padding: 30px 40px 0 40px;
-    font-size: 16px;
-    font-family: 'Sodo-Sans Regular';
+    font-size: 14px;
 }
 
 .section-1 p + .btn {
@@ -182,14 +181,14 @@ body {
     margin: 15px 0 35px 0;
 }
 
-.section-1  button:hover {
+.section-1 button:hover {
     background-color: rgba(199, 199, 199, 0.399);
 }
 
 @media screen and (min-width: 768px){
     .section-1 p {
         font-size: 18px;
-        padding: 30px 140px 0 140px;
+        padding: 30px 150px 0;
     }
 }
 
@@ -198,7 +197,7 @@ body {
 
 /* Start Section 2 */
 
-.section-2 {
+.section-1, .section-2, .section-3 {
     font-family: 'Sodo-Sans Regular';
 }
 
@@ -207,20 +206,40 @@ body {
 }
 
 .section-2 .col-12 p {
-    font-size: 17px;
+    font-size: 15px;
     margin: 30px 60px 0;
 }
 
+@media screen and (min-width: 768px){
+    .section-2 p {
+        font-size: 18px;
+    }
+}
+
 .section-2 .col-12 button {
-    width: 350px;
+    width: 73%;
     font-size: 14px;
-    padding: 5px 20px;
     margin: 40px 0 45px 0;
 }
 
 .section-2 .col-12 button:hover {
     background-color: rgba(199, 199, 199, 0.399);
 }
+
 /* End Section 2 */
+
+/* Start Section 3 */
+
+.section-3 .col-12 p {
+    font-size: 18px;
+    padding: 15px 70px 0;
+    margin-bottom: 35px;
+}
+
+.section-3 .col-12 button:hover {
+    background-color: rgba(199, 199, 199, 0.399);
+}
+
+/* End Section 3 */
 
 /* End Main */
