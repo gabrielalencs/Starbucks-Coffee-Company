@@ -18,6 +18,12 @@ font-family: 'Lato', sans-serif; --> */
     src: url(font/SoDoSans-Regular.ttf);
 }
 
+:root[data-bs-theme=light] {
+    /* --bs-link-hover-color-rgb: #1E3932;
+    --bs-link-hover-color: #1E3932; */
+    --bs-link-hover-color-rgb: rgb(30, 57, 50);
+}
+
 body {
     margin-bottom: 500px;
 }
@@ -30,11 +36,76 @@ body {
     color: #1E3932;
 }
 
-/* Header */
+/* Start Header */
 
 .header_starbucks {
     font-family: 'Sodo-Sans Bold';
 }
+
+/* Start Menu */
+
+.header_starbucks .navbar {
+    font-size: 12.5px;
+    font-weight: bolder;
+    letter-spacing: 1.5px;
+}
+
+.logotipo-history {
+    width: 120px;
+}
+
+.navbar .container-fluid .container-fluid {
+    display: flex;
+    align-items: center;
+}
+
+.navbar .container-fluid .collapse .nav .nav-item .nav-link:hover {
+    color: #0F8953 !important; 
+}
+
+.icon {
+    font-size: 20px;
+}
+
+@media screen and (min-width: 750px) {
+
+    .navbar .container-fluid .container-fluid {
+        display: flex;
+        justify-content: center;
+    }
+
+    .navbar .container-fluid .container-fluid a {
+        display: none;
+    }
+
+    .navbar .container-fluid .container-fluid .btn-light,
+    .btn-dark {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 880px) {
+    .navbar .container-fluid .container-fluid a {
+        display: inline-block;
+        display: flex;
+        align-items: center;
+    }
+}
+
+@media screen and (min-width: 1050px) {
+    .navbar .container-fluid .container-fluid .btn-light {
+        display: inline-block;
+    }
+}
+
+@media screen and (min-width: 1120px) {
+    .navbar .container-fluid .container-fluid .btn-dark {
+        font-size: 14px;
+        display: inline-block;
+    }
+}
+
+/* End Menu */
 
 /* Start Offcanvas */
 
@@ -88,68 +159,7 @@ body {
 
 /* End Offcanvas */
 
-/* Start Menu */
-
-.header_starbucks .navbar {
-    font-size: 12.5px;
-    font-weight: bolder;
-    letter-spacing: 1.5px;
-}
-
-.logotipo-history {
-    width: 120px;
-}
-
-.navbar .container-fluid .container-fluid {
-    display: flex;
-    align-items: center;
-}
-
-.icon {
-    font-size: 20px;
-}
-
-@media screen and (min-width: 750px) {
-
-    .navbar .container-fluid .container-fluid {
-        display: flex;
-        justify-content: center;
-    }
-
-    .navbar .container-fluid .container-fluid a {
-        display: none;
-    }
-
-    .navbar .container-fluid .container-fluid .btn-light,
-    .btn-dark {
-        display: none;
-    }
-}
-
-@media screen and (min-width: 880px) {
-    .navbar .container-fluid .container-fluid a {
-        display: inline-block;
-        display: flex;
-        align-items: center;
-    }
-}
-
-@media screen and (min-width: 1050px) {
-    .navbar .container-fluid .container-fluid .btn-light {
-        display: inline-block;
-    }
-}
-
-@media screen and (min-width: 1120px) {
-    .navbar .container-fluid .container-fluid .btn-dark {
-        font-size: 14px;
-        display: inline-block;
-    }
-}
-
-/* End Menu */
-
-/* Header */
+/* End Header */
 
 
 /* Start Main */
@@ -172,8 +182,16 @@ body {
 /* Start Section 1 */
 
 .section-1 p {
-    padding: 30px 40px 0 40px;
+    padding: 30px 50px 0;
     font-size: 14px;
+}
+
+@media screen and (min-width: 768px){
+    .section-1 p {
+        font-size: 18px;
+        padding: 30px 150px 0;
+        line-height: 31.5px;
+    }
 }
 
 .section-1 p + .btn {
@@ -185,15 +203,7 @@ body {
     background-color: rgba(199, 199, 199, 0.399);
 }
 
-@media screen and (min-width: 768px){
-    .section-1 p {
-        font-size: 18px;
-        padding: 30px 150px 0;
-    }
-}
-
 /* End Section 1 */
-
 
 /* Start Section 2 */
 
@@ -202,17 +212,20 @@ body {
 }
 
 .section-2 .col-12 h3 {
-    margin: 30px 70px 0;
+    font-size: 24px;
+    margin: 30px 50px 0;
 }
 
 .section-2 .col-12 p {
-    font-size: 15px;
+    font-size: 14px;
     margin: 30px 60px 0;
+    line-height: 24.5px;
 }
 
 @media screen and (min-width: 768px){
-    .section-2 p {
+    .section-2 .col-12 p {
         font-size: 18px;
+        margin: 30px 70px 0;
     }
 }
 
@@ -230,10 +243,20 @@ body {
 
 /* Start Section 3 */
 
+.section-3 .col-12 h3 {
+    font-size: 24px;
+}
+
 .section-3 .col-12 p {
-    font-size: 18px;
-    padding: 15px 70px 0;
+    font-size: 14px;
+    padding: 15px 50px 0;
     margin-bottom: 35px;
+}
+
+@media screen and (min-width: 768px){
+    .section-3 .col-12 p {
+        font-size: 18px;
+    }
 }
 
 .section-3 .col-12 button:hover {
@@ -241,5 +264,45 @@ body {
 }
 
 /* End Section 3 */
+
+/* Start Section 4 */
+
+.section-4 .col-12 p {
+    font-size: 14px;
+    padding: 15px 40px 0;
+}
+
+@media screen and (min-width: 768px){
+    .section-4 .col-12 p {
+        font-size: 19px;
+        line-height: 31.5px;
+    }
+}
+
+/* End Section 4 */
+
+/* Start Section 5 */
+
+.section-5 .col-12 h3 {
+    padding: 0 80px;
+}
+
+.section-5 .col-12 p {
+    padding: 15px 50px;
+    font-size: 14px;
+}
+
+@media screen and (min-width: 768px){
+    .section-5 .col-12 h3 {
+        padding: 0 40px;
+    }
+
+    .section-5 .col-12 p {
+        font-size: 18px;
+        line-height: 31.5px;
+    }
+}
+
+/* End Section 5 */
 
 /* End Main */
