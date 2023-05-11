@@ -18,16 +18,6 @@ font-family: 'Lato', sans-serif; --> */
     src: url(font/SoDoSans-Regular.ttf);
 }
 
-:root[data-bs-theme=light] {
-    /* --bs-link-hover-color-rgb: #1E3932;
-    --bs-link-hover-color: #1E3932; */
-    --bs-link-hover-color-rgb: rgb(30, 57, 50);
-}
-
-body {
-    margin-bottom: 500px;
-}
-
 .primary-color {
     background-color: #D4E9E2;
 }
@@ -306,3 +296,52 @@ body {
 /* End Section 5 */
 
 /* End Main */
+
+/* Start Footer */
+
+.footer-starkbucks {
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.7), 
+    0 2px 8px 0 rgba(0,0,0,.5),
+    0 1px 5px 0 rgba(0,0,0,.1);
+    margin-top: 35px;
+    font-family: 'Sodo-Sans Regular';
+    padding: 25px 0 50px;
+}
+
+.text-dark-emphasis {
+    color: rgb(148, 148, 148) !important;
+}
+
+.footer-accordion .accordion-button {
+    box-shadow:none;
+    border: none;
+    background-color: transparent;
+    font-size: 18px;
+}
+
+.accordion-item .nav {
+    font-size: 14px;
+}
+
+.footer-img-logo {
+    width: 120px;
+}
+
+.footer-links {
+    padding: 20px 100px;
+    gap: 30px;
+}
+
+.footer-links .nav .nav-item:nth-child(1) {
+    font-size: 18px;
+}
+
+.footer-links .nav {
+    width: calc(100% / 4);
+}
+
+.footer-links .nav .nav-item {
+    font-size: 14px;
+}
+
+/* End Footer */
