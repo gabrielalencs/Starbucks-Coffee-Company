@@ -49,7 +49,7 @@ font-family: 'Lato', sans-serif; --> */
     align-items: center;
 }
 
-.navbar .container-fluid .collapse .nav .nav-item .nav-link:hover {
+.navbar .container-fluid .nav .nav-item .nav-link:hover {
     color: #0F8953 !important; 
 }
 
@@ -160,6 +160,11 @@ font-family: 'Lato', sans-serif; --> */
     width: 10px;
     height: 10px;
     border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.541);
+}
+
+.carousel-indicators .active {
+    background-color: rgba(255, 255, 255, 0.681);
 }
 
 .starbucks_main .carousel .carousel-control-prev, .carousel-control-next {
@@ -308,6 +313,13 @@ font-family: 'Lato', sans-serif; --> */
     padding: 25px 0 50px;
 }
 
+@media screen and (min-width: 992px){
+    .footer-starkbucks hr + .container-fluid {
+        text-align: justify;
+        padding: 10px 80px 0;
+    }
+}
+
 .text-dark-emphasis {
     color: rgb(148, 148, 148) !important;
 }
@@ -327,9 +339,10 @@ font-family: 'Lato', sans-serif; --> */
     width: 120px;
 }
 
-.footer-links {
-    padding: 20px 100px;
-    gap: 30px;
+@media screen and (min-width: 992px){
+    .footer-links {
+        padding: 20px 80px;
+    }
 }
 
 .footer-links .nav .nav-item:nth-child(1) {
@@ -342,6 +355,55 @@ font-family: 'Lato', sans-serif; --> */
 
 .footer-links .nav .nav-item {
     font-size: 14px;
+}
+
+.footer-links .nav .nav-item .text-dark-emphasis:hover {
+    color: black !important;
+}
+
+.footer-links + hr {
+    border: 1.5px solid #acacac;
+    margin: 40px auto;
+    max-width: 940px;
+}
+
+.social-media {
+    margin: 50px 10px 0;
+}
+
+.social-media i {
+    font-size: 20px;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .3s ease;
+    background-color: black;
+    border-radius: 50%;
+    color: white;
+}
+
+.social-media i:hover {
+    transform: scale(1.2);
+}
+
+.politicas {
+    margin-top: 30px;
+}
+
+.politicas span:nth-child(-n+3) {
+    border-right: 1px solid black;
+    padding: 0 10px;
+}
+
+.politicas span:nth-child(4) {
+    padding-left: 10px;
+}
+
+.footer-starkbucks .politicas + p {
+    font-size: 14px;
+    margin: 50px 10px 20px;
 }
 
 /* End Footer */
