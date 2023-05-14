@@ -22,6 +22,8 @@
 
 ##  Screenshots
 
+<div>
+
 <div align="center">
 <img width="500px" alt="cabecalho" src="https://github.com/gabrielalencs/Starbucks-Coffee-Company/assets/127636935/b145d83e-3cad-421f-bfce-40037e6c53ab">
 <img width="500px" height="200px" alt="section2-strabucks" src="https://github.com/gabrielalencs/Starbucks-Coffee-Company/assets/127636935/a5b36f47-655f-4594-8db0-1eedcc25e1b9">
@@ -29,6 +31,9 @@
 <img width="500px" alt="footer" src="https://github.com/gabrielalencs/Starbucks-Coffee-Company/assets/127636935/5d56d85a-1784-4cd8-b527-6cde001c518b">
 <img width="500px" alt="capturar4" src="https://github.com/gabrielalencs/Starbucks-Coffee-Company/assets/127636935/8afce86c-0e4e-436e-a293-d285495d5c4d">
 </div>
+
+<br>
+
 ## Descrição do projeto
 
 <p>
