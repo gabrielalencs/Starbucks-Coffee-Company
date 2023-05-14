@@ -9,6 +9,7 @@
  - [Título e Imagem de capa](#Starbucks-Coffee-Starbuck)
  - [Screenshots](#Screenshots)
  - [Descrição do projeto](#Descrição-do-projeto)
+ - [Stacks Utilizadas](#Stacks-Utilizadas)
 
 </div>
 
@@ -20,7 +21,7 @@
 <br>
 <br>
 
-##  Screenshots
+## 📸 Screenshots
 
 <br>
 
@@ -35,11 +36,23 @@
 
 <br>
 
-## Descrição do projeto
+## 📄 Descrição do projeto
 
 <p>
    A página inicial do Starbucks apresenta um design elegante e minimalista com uma imagem central em destaque. O menu principal fica na parte superior da página, oferecendo acesso fácil aos diferentes tipos de bebidas, alimentos e mercadorias disponíveis. Abaixo da imagem principal, existem seções de destaque para novos produtos, promoções e recursos da empresa, incluindo sua abordagem de sustentabilidade e iniciativas comunitárias. O rodapé da página inclui links para informações importantes, como política de privacidade e carreiras na empresa.
 </p>
+ 
+ ## 🛠 Stacks Utilizadas
+ 
+ <div align="center">
+  <img align="center" alt="Alencar-HTML" height="40" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
+ <img align="center" alt="Alencar-CSS" height="40" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
+  <img align="center" alt="Alencar-HTML" height="40" width="50" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-original.svg">
+ </div>
+ 
+ ## 🚀 Deploy
+ 
+ 
 
 
 
