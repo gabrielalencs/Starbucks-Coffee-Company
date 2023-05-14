@@ -49,7 +49,7 @@
  
  ## 🚀 Deploy
  
-Usei a própria ferramenta de deploy<a href= "https://gabrielalencs.github.io/Starbucks-Coffee-Company/" target="_blank"> Clique Aqui </a> para ver o projeto
+Usei a própria ferramenta de deploy do GitHub,<a href= "https://gabrielalencs.github.io/Starbucks-Coffee-Company/" target="_blank"> Clique Aqui </a> para ver o projeto
  
  ## 🤝 Feedbacks
  
