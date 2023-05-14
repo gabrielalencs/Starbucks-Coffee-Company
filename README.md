@@ -10,6 +10,7 @@
  - [Screenshots](#Screenshots)
  - [Descrição do projeto](#Descrição-do-projeto)
  - [Stacks Utilizadas](#Stacks-Utilizadas)
+ - [Deploy](#Deploy)
 
 </div>
 
@@ -52,6 +53,7 @@
  
  ## 🚀 Deploy
  
+Usei a própria ferramenta de deploy<a href= "https://gabrielalencs.github.io/Starbucks-Coffee-Company/"> Clique Aqui </a> para ver o projeto
  
 
 
