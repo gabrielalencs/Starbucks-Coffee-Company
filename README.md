@@ -31,7 +31,7 @@
 ## Descrição do projeto
 
 <p>
-   A página inicial do Starbucks apresenta um design elegante e minimalista com uma imagem central em destaque. O menu principal fica na parte superior da página, oferecendo acesso fácil aos diferentes tipos de bebidas, alimentos e mercadorias disponíveis. Abaixo da imagem principal, existem seções de destaque para novos produtos, promoções e recursos da empresa, incluindo sua abordagem de sustentabilidade e iniciativas comunitárias. O rodapé da página inclui links para informações importantes, como política de privacidade e carreiras na empresa
+   A página inicial do Starbucks apresenta um design elegante e minimalista com uma imagem central em destaque. O menu principal fica na parte superior da página, oferecendo acesso fácil aos diferentes tipos de bebidas, alimentos e mercadorias disponíveis. Abaixo da imagem principal, existem seções de destaque para novos produtos, promoções e recursos da empresa, incluindo sua abordagem de sustentabilidade e iniciativas comunitárias. O rodapé da página inclui links para informações importantes, como política de privacidade e carreiras na empresa.
 </p>
 
 
