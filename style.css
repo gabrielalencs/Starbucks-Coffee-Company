@@ -17,11 +17,25 @@
  .text-color {
      color: #1E3932;
 }
+
+@media screen and (min-width: 1200px){
+    .starbucks_main, .header_starbucks {
+        margin: 0 100px;
+    }
+}
+
+@media screen and (min-width: 1400px){
+    .starbucks_main, .header_starbucks {
+        margin: 0 300px;
+    }
+}
 /* Start Header */
+
  .header_starbucks {
      font-family: 'Sodo-Sans Bold';
 }
 /* Start Menu */
+
  .header_starbucks .navbar {
      font-size: 12.5px;
      font-weight: bolder;
@@ -71,6 +85,7 @@
     }
 }
 /* End Menu */
+
 /* Start Offcanvas */
  .container-fluid .navbar-brand img {
      width: 40px;
@@ -115,9 +130,13 @@
      box-shadow: 0 1px 4px rgba(0, 0, 0, 0.657);
 }
 /* End Offcanvas */
+
 /* End Header */
+
 /* Start Main */
+
 /* Start Carousel */
+
  .carousel-indicators [data-bs-target] {
      width: 10px;
      height: 10px;
@@ -131,7 +150,9 @@
      opacity: 1;
 }
 /* End Carousel */
+
 /* Start Section 1 */
+
  .section-1 p {
      padding: 30px 50px 0;
      font-size: 14px;
@@ -151,7 +172,9 @@
      background-color: rgba(199, 199, 199, 0.399);
 }
 /* End Section 1 */
+
 /* Start Section 2 */
+
  .section-1, .section-2, .section-3 {
      font-family: 'Sodo-Sans Regular';
 }
@@ -180,7 +203,9 @@
      background-color: rgba(199, 199, 199, 0.399);
 }
 /* End Section 2 */
+
 /* Start Section 3 */
+
  .section-3 .col-12 h3 {
      font-size: 24px;
 }
@@ -198,7 +223,9 @@
      background-color: rgba(199, 199, 199, 0.399);
 }
 /* End Section 3 */
+
 /* Start Section 4 */
+
  .section-4 .col-12 p {
      font-size: 14px;
      padding: 15px 40px 0;
@@ -210,7 +237,9 @@
     }
 }
 /* End Section 4 */
+
 /* Start Section 5 */
+
  .section-5 .col-12 h3 {
      padding: 0 80px;
 }
@@ -228,8 +257,11 @@
     }
 }
 /* End Section 5 */
+
 /* End Main */
+
 /* Start Footer */
+
  .footer-starkbucks {
      box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .7), 0 2px 8px 0 rgba(0, 0, 0, .5), 0 1px 5px 0 rgba(0, 0, 0, .1);
      margin-top: 35px;
@@ -311,4 +343,5 @@
      font-size: 14px;
      margin: 50px 10px 20px;
 }
+
 /* End Footer */
