@@ -11,6 +11,7 @@
  - [Descrição do projeto](#Descrição-do-projeto)
  - [Stacks Utilizadas](#Stacks-Utilizadas)
  - [Deploy](#Deploy)
+ - [Feedbacks](#Feedbacks)
 
 </div>
 
@@ -50,7 +51,7 @@
  
 Usei a própria ferramenta de deploy<a href= "https://gabrielalencs.github.io/Starbucks-Coffee-Company/"> Clique Aqui </a> para ver o projeto
  
- ## 🤝 Feedback
+ ## 🤝 Feedbacks
  
  Qualquer feedback ou sugestão será muito bem-vindo, seja em relação ao formato, conteúdo ou linguagem utilizada. 
  <br>
