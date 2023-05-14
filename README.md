@@ -18,9 +18,6 @@
 <br>
 <br>
 <br>
-<br>
-<br>
-<br>
 
 ## 📸 Screenshots
 
