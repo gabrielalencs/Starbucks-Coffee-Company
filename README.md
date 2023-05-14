@@ -49,7 +49,7 @@
  
  ## 🚀 Deploy
  
-Usei a própria ferramenta de deploy<a href= "https://gabrielalencs.github.io/Starbucks-Coffee-Company/"> Clique Aqui </a> para ver o projeto
+Usei a própria ferramenta de deploy<a href= "https://gabrielalencs.github.io/Starbucks-Coffee-Company/" target="_blank"> Clique Aqui </a> para ver o projeto
  
  ## 🤝 Feedbacks
  
@@ -57,7 +57,7 @@ Usei a própria ferramenta de deploy<a href= "https://gabrielalencs.github.io/St
  <br>
  Email: gabrieldealencar.dev@gmail.com
  <br>
- Linkedin: <a href="www.linkedin.com/in/gabrielalencarr"> Clique aqui</a> para acessar meu Linkedin
+ Linkedin: <a href="www.linkedin.com/in/gabrielalencarr" target="_blank"> Clique aqui</a> para acessar meu Linkedin
  
  
 
