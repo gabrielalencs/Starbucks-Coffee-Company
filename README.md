@@ -55,6 +55,15 @@
  
 Usei a própria ferramenta de deploy<a href= "https://gabrielalencs.github.io/Starbucks-Coffee-Company/"> Clique Aqui </a> para ver o projeto
  
+ ## 🤝 Feedback
+ 
+ Qualquer feedback ou sugestão será muito bem-vindo, seja em relação ao formato, conteúdo ou linguagem utilizada. 
+ <br>
+ Email: gabrieldealencar.dev@gmail.com
+ <br>
+ Linkedin: <a href="www.linkedin.com/in/gabrielalencarr"> Clique aqui</a> para acessar meu Linkedin
+ 
+ 
 
 
 
