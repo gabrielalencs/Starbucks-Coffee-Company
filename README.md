@@ -8,6 +8,7 @@
  
  - [Título e Imagem de capa](#Starbucks-Coffee-Starbuck)
  - [Screenshots](#Screenshots)
+ - [Descrição do projeto](#Descrição-do-projeto)
 
 </div>
 
@@ -27,7 +28,11 @@
 <img width="500px" alt="footer" src="https://github.com/gabrielalencs/Starbucks-Coffee-Company/assets/127636935/5d56d85a-1784-4cd8-b527-6cde001c518b">
 <img width="500px" alt="capturar4" src="https://github.com/gabrielalencs/Starbucks-Coffee-Company/assets/127636935/8afce86c-0e4e-436e-a293-d285495d5c4d">
 
+## Descrição do projeto
 
+<p>
+   A página inicial do Starbucks apresenta um design elegante e minimalista com uma imagem central em destaque. O menu principal fica na parte superior da página, oferecendo acesso fácil aos diferentes tipos de bebidas, alimentos e mercadorias disponíveis. Abaixo da imagem principal, existem seções de destaque para novos produtos, promoções e recursos da empresa, incluindo sua abordagem de sustentabilidade e iniciativas comunitárias. O rodapé da página inclui links para informações importantes, como política de privacidade e carreiras na empresa
+</p>
 
 
 
