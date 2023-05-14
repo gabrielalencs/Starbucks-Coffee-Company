@@ -56,9 +56,6 @@ Usei a própria ferramenta de deploy<a href= "https://gabrielalencs.github.io/St
  Qualquer feedback ou sugestão será muito bem-vindo, seja em relação ao formato, conteúdo ou linguagem utilizada. 
  <br>
  Email: gabrieldealencar.dev@gmail.com
- <br>
- Linkedin: <a href="www.linkedin.com/in/gabrielalencarr" target="_blank"> Clique aqui</a> para acessar meu Linkedin
- 
  
 
 
