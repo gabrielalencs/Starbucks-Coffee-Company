@@ -22,8 +22,9 @@
 
 ##  Screenshots
 
-<div>
+<br>
 
+<div>
 <div align="center">
 <img width="500px" alt="cabecalho" src="https://github.com/gabrielalencs/Starbucks-Coffee-Company/assets/127636935/b145d83e-3cad-421f-bfce-40037e6c53ab">
 <img width="500px" height="200px" alt="section2-strabucks" src="https://github.com/gabrielalencs/Starbucks-Coffee-Company/assets/127636935/a5b36f47-655f-4594-8db0-1eedcc25e1b9">
