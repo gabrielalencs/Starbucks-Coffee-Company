@@ -24,11 +24,6 @@
     }
 }
 
-@media screen and (min-width: 1400px){
-    .starbucks_main, .header_starbucks {
-        margin: 0 200px;
-    }
-}
 /* Start Header */
 
  .header_starbucks {
