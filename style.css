@@ -18,9 +18,9 @@
      color: #1E3932;
 }
 
-@media screen and (min-width: 1200px){
+@media screen and (min-width: 1300px){
     .starbucks_main, .header_starbucks {
-        margin: 0 190px;
+        margin: 0 60px;
     }
 }
 
@@ -189,6 +189,15 @@
          line-height: 31.5px;
     }
 }
+
+@media screen and (min-width: 1300px) {
+    .section-2 .col-12 p {
+        font-size: 20px;
+        margin: 30px 100px 0;
+        line-height: 35.5px;
+    }
+}
+
  .section-2 .col-12 button {
      width: 73%;
      font-size: 14px;
